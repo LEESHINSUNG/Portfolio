@@ -61,6 +61,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  padding: 0;
 }
 
 /* Typography */
@@ -108,7 +109,7 @@ p {
 
 #navbar.navbar--dark {
   background-color: var(--color-skyblue);
-  padding: 8px;
+  padding: 0px;
 }
 
 .navbar__menu {
@@ -211,6 +212,7 @@ p {
 .major__icon:hover i {
   color: var(--color-pink);
   transform: rotate(-30deg) scale(1.1);
+  font-size: 120%;
 }
 
 .major__title,
@@ -530,7 +532,7 @@ p {
     display: none;
   }
 
-  .navbar__menu.opne {
+  .navbar__menu.open {
     display: block;
   }
 
