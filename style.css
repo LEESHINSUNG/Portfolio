@@ -521,7 +521,7 @@ p {
     background-color: var(--color-skyblue);
   }
 
-  #navbar.navbar__dark {
+  #navbar.navbar--dark {
     padding: 16px;
   }
 
