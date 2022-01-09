@@ -261,6 +261,7 @@ p {
 
 .skillset__title {
   color: var(--color-white);
+  margin: 40px;
 }
 
 .skillset__left {
@@ -299,6 +300,15 @@ p {
 .tools,
 .etc {
   padding: 20px;
+}
+
+.skill__name {
+  font-weight: 500;
+  margin: 0px 20px 0px 20px;
+}
+
+.skill__box {
+  width: 320px;
 }
 
 /* Work */
